@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Kanit&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Babylonica', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+body {
+    background: linear-gradient(45deg, #0a0a0a, #41444b);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    border: 1px solid #545556;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(140deg, #121212, #363a40);
+    box-shadow: 0px 5px 15px rgba(96, 95, 99, 0.5);
+}
+
+input {
+    cursor: pointer;
+    border: none;
+    padding: 20px;
+    margin: 10px;
+    width: 280px;
+    background: transparent;
+    box-shadow: 0px 5px 15px rgba(121, 118, 126, 0.3);    
+    font-size: 38px;
+    text-align: right;
+}
+input::placeholder {
+    color: whitesmoke;
+}
+button {
+    width: 60px;
+    border: none;
+    height: 50px;
+    margin: 12px;
+    border-radius: 50px;
+    background:transparent;
+    color: whitesmoke;
+    font-size: 19px;
+    box-shadow: -5px -5px 10px rgba(121, 118, 126, 0.2);
+    cursor: pointer;
+}
+.equal {
+    background-color: rgb(250, 164, 5)
+}
+.operator {
+    color:limegreen;
+}
+.delclear {
+    color: rgba(179, 173, 173, 0.686);
+}
+#inputBox {
+    color:whitesmoke;
+}
